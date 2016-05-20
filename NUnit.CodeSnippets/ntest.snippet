@@ -8,7 +8,7 @@
       <Title>NUnit Test Method</Title>
       <Shortcut>ntest</Shortcut>
       <Description>Code snippet for NUnit test method</Description>
-      <Author>lukasz.karski@hp.com</Author>
+      <Author>lukasz.karski@hpe.com</Author>
     </Header>
     <Snippet>
       <Declarations>
@@ -18,14 +18,14 @@
           <Default>DrinkingBeer</Default>
         </Literal>
         <Literal>
-          <ID>do</ID>
+          <ID>does/ID>
           <ToolTip>Expectation</ToolTip>
-          <Default>BeAllowed_WhenAllTestsPass</Default>
+          <Default>IsAllowed_WhenAllTestsPass</Default>
         </Literal>
       </Declarations>
       <Code Language="csharp">
         <![CDATA[[Test]
-      public void $method$_Should$do$()
+      public void $method$_$does$()
       {
           // Arrange
           $end$

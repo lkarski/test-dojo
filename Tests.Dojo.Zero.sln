@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{46C05C20-7D40-40D5-997E-AD5DAA8DAF9A}"
 EndProject
@@ -16,6 +16,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03.Mocks", "E03.Mocks\E03.Mocks.csproj", "{249B204C-1204-41D1-B917-BBB52E61D307}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E04.TDD", "E04.TDD\E04.TDD.csproj", "{1004AA41-CC59-47C5-9EA8-D60AB8ACDD0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "snippets", "snippets", "{6097530C-24AD-42B9-85CA-F78C61D3D6DA}"
+	ProjectSection(SolutionItems) = preProject
+		NUnit.CodeSnippets\ntest.snippet = NUnit.CodeSnippets\ntest.snippet
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
